@@ -6,6 +6,11 @@
 body{
 
 /* color: white */
+background-image: url(./assets/Food.png);
+background-position:  center center;
+background-repeat: no-repeat;
+background-size:10%;
+background-attachment: fixed;
 
 }
 
@@ -174,6 +179,35 @@ text-align: center;
 }
 .navbar-toggler{
     margin-top: 10px !important;
+}
+.bder{
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 20px;
+    width: 300px;
+    height: 400px;
+}
+/* .form-check{
+    margin:  auto !important;
+    text-align: center !important;
+} */
+ form{
+    margin: auto !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center !important;
+ }
+.form-switch .form-check-input{
+    margin: auto !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center !important;
+}
+.form-check{
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 @media (min-width: 576px) {
